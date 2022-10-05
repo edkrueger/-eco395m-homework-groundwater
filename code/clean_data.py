@@ -25,8 +25,8 @@ def extract_values_from_timerseries(timeseries):
     # note: timeseries["values"] is a list.
     # Its unclear why its a list,
     # because each element of it has a "value" key with a list as its values.
-    # So, it can already accomodate multiple values.
-    # Also, from spot checkining timeseries["values"] appears to be of length 1.
+    # So, it can already accommodate multiple values.
+    # Also, from spot checking timeseries["values"] appears to be of length 1.
     # So, use only the first element of the list.
     values = timeseries["values"][0]["value"]
 
