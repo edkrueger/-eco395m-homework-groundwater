@@ -8,7 +8,7 @@ from clean_data import extract_data
 
 def request_raw_data():
     """Requests the groundwater levels
-    for summer of 2022 (Jun 6th to Sept 22)
+    for summer of 2022 (Jun 21th to Sept 22)
     for Texas
     in a JSON format.
     Allows gzip compression in transit.
